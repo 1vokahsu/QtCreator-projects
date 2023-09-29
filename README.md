@@ -15,8 +15,6 @@ There are various programs here:
 ## Table of Contents 
 
 - [Technology stack](#technology-stack)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [Contacts](#contacts)
 
 
