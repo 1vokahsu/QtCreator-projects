@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1083</width>
+    <height>673</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="CB_op1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>false</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>true</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="CB_res">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>90</y>
+      <width>491</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Коньюнкция</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Дизъюнкция</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Импликация</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Строгая дизъюнкция</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эквивалентность</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Отрицание</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="CB_op2">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>100</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>false</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>true</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1083</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
